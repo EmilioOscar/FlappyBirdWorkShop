@@ -20,7 +20,7 @@ public class Score : MonoBehaviour
         }
     }
 
-    private void Start() // Corrected the method name
+    private void Start() 
     {
         currentScoreText.text = score.ToString();
 
@@ -40,7 +40,7 @@ public class Score : MonoBehaviour
     public void UpdateScore()
     {
         score++;
-        currentScoreText.text = score.ToString(); // Corrected the assignment here
+        currentScoreText.text = score.ToString();
         UpdateHighScore();
     }
 }
